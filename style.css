@@ -140,6 +140,9 @@ i {
   margin-left: 2rem;
   font-size: 1.7rem;
   color: black;
+  font-style: italic;
+  font-weight: bolder;
+  font-size: large;
 }
 .header .navbar a:hover {
   color: green;
@@ -237,7 +240,9 @@ form label:hover {
   justify-content: flex-start;
   padding: 2rem 9%;
 }
-
+.category{
+  background-color: #d5e1f5;
+}
 .home .content {
   width: 50rem;
 }
@@ -260,6 +265,7 @@ form label:hover {
 .category .box-container {
   display: -ms-grid;
   display: grid;
+ 
   -ms-grid-columns: (minmax(29rem, 1fr)) [auto-fit];
   grid-template-columns: repeat(auto-fit, minmax(29rem, 1fr));
   gap: 1.5rem;
@@ -291,7 +297,8 @@ form label:hover {
   line-height: 2;
 }
 .packages {
-  background: #eee;
+  /* background: #eee; */
+  background-color: #f5d5e4;
 }
 
 .packages .box-container {
@@ -426,6 +433,13 @@ form label:hover {
 
 .footer .credit span {
   color: #219150;
+}
+
+.contact{
+  background-color: #f7edf2;
+}
+.contact-form{
+  background-color: #deced6;
 }
 
 @media (max-width: 1200px) {
